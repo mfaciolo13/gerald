@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "_components": ["./app/components/index.ts"],
+      "_routes": ["./app/routes/index.ts"],
+      "_screens": ["./app/screens/index.ts"]
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}
